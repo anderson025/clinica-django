@@ -19,6 +19,6 @@ from django.urls import path
 from app_clinica import views
 
 urlpatterns = [
-    path('', views.home,name='home'),
+    path('clinica-django.vercel.app', views.home,name='home'),
     path('usuarios/', views.usuarios,name='listagem_usuarios')
 ]
